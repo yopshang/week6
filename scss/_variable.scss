@@ -1,0 +1,20 @@
+$main-color:#0E8A00;
+$secondary-color:#0000009A;
+$third-color:#00000062;
+
+.titleIntop{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+.bigTitleintop{
+    font-size: 48px;
+}
+.smTitleintop{
+    font-size: 24px;
+    color: $secondary-color;
+}
+.shopBtn{
+    color:$main-color;
+    background-color: $main-color;
+}

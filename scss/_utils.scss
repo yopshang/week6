@@ -8,6 +8,15 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
-.justyfy-content-center{
+.jc-center{
     justify-content: center;
+}
+.jc-flex-start{
+    justify-content: flex-start;
+}
+.jc-flex-end{
+    justify-content: flex-end;
+}
+.ai-center{
+    align-items: center;
 }

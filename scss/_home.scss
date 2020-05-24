@@ -5,6 +5,12 @@ $third-color:#00000062;
 .mainDiv{
     margin: 0 85px;
 }
+a{
+    color: #fff;
+    text-decoration: none
+    
+    ;
+}
 // firstRow
 .topDiv{
     height: 800px;
@@ -41,6 +47,9 @@ $third-color:#00000062;
             margin: 30px 24px;
         }
     }
+}
+.h-15{
+    height: 1.5em;
 }
 // fisrRow end
 // secondRow
@@ -207,3 +216,5 @@ $third-color:#00000062;
     margin-right: 85px;
 }
 // footerRow end
+@media(max-width:760px){
+}

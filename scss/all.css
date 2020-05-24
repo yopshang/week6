@@ -10852,10 +10852,25 @@ a.text-dark:hover, a.text-dark:focus {
           justify-content: flex-end;
 }
 
+.jc-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jc-space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .ai-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.text-dec {
+  text-decoration: line-through;
 }
 
 *, ::after, ::before {
@@ -10879,6 +10894,11 @@ a {
 
 .mainDiv {
   margin: 0 85px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .topDiv {
@@ -10921,6 +10941,10 @@ a {
 .topDivright ul li {
   color: #fff;
   margin: 30px 24px;
+}
+
+.h-15 {
+  height: 1.5em;
 }
 
 .secRowsection {
@@ -11106,5 +11130,72 @@ a {
 
 .rightSidefooter {
   margin-right: 85px;
+}
+
+.navOnproduct {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ulOnnav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.titleIntop {
+  font-size: 24px;
+}
+
+.productList:hover {
+  color: #0E8A00;
+}
+
+.productFilter {
+  background-color: #F2F2F2;
+}
+
+.productFilter .productUl {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.onsile {
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: right;
+  margin-top: -16em;
+}
+
+.underOnsile {
+  margin-top: 210px;
+}
+
+.onsile2 {
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: right;
+  margin-top: -18em;
+}
+
+.underOnsile2 {
+  margin-top: 230px;
+}
+
+.pageNumber {
+  color: #121212;
+  font-size: 24px;
+}
+
+.pageNumber:hover {
+  color: #0E8A00;
+  text-decoration: underline;
+}
+
+.pageNumber:focus {
+  color: #0E8A00;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=all.css.map */

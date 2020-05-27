@@ -4,16 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./scss/all.css">
+    <!-- animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <!-- animate.css end -->
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="/all.js"></script>
+    
     <title>電商網站</title>
 </head>
 <body class="main-container">
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: false,
+    });
+</script>
+<!-- AOS -->
     <div class="mainDiv mb-72">
+        <!--nav-->
+        <nav class="row navOnproduct ai-center "><!--ai-center-->
+            <h2 class="titleIntop animate__animated animate__fadeInDown">
+                CRAFTsMAN
+                <a class="titleIntop" href="/home.html">
+                </a>
+            </h2>
+            <ul class="row ulOnnav mb-0">
+                <li class="productList col-lg-3 animate__animated animate__fadeInDown">
+                    <a href="/product.html">
+                    Product
+                    </a>
+                </li>
+                <li class="productList col-lg-3 animate__animated animate__fadeInDown">Blog</li>
+                <li class="productList col-lg-3 animate__animated animate__fadeInDown">Contact</li>
+                <li><i class="productList col-lg-3 fas fa-shopping-cart animate__animated animate__fadeInDown"></i></li>
+            </ul>
+        </nav>
+        <!-- nav end -->
         <!-- firstRow -->
         <div class="row topDiv">
             <div class="insideTopdiv col-lg-6">
-                <h2 class="titleIntop">CRAFTsMAN</h2>
-                <div class="insideTop">
+                <!-- <h2 class="titleIntop">CRAFTsMAN</h2> -->
+                <div data-aos="fade-left" class="insideTop  animate__animated animate__fadeInLeft">
                     <h1 class="bigTitleintop">Enjoy Your 
                         <br>
                         Minimalist Lifestyle.
@@ -26,26 +62,26 @@
             </div>
             <div class="col-lg-6 d-flex topDivright jc-flex-end">
                 <ul class="h-15 d-flex">
-                    <li class="productList">
+                    <!-- <li class="productList">
                         <a href="/product.html">
                             Product
                         </a>
                     </li>
                     <li class="productList">Blog</li>
-                    <li class="productList">Contact</li>
+                    <li class="productList">Contact</li> -->
                     <!-- <i class="fas fa-shopping-cart"></i> -->
                     <!--icon位置-->
                 </ul>
             </div>
-        </div>
+        </div> 
         <!-- firstRow end -->
         <!-- secondRow -->
         <div class="secRow">
             <div>
                 <div class="row">
                     <img class="col-lg-6" src="/img/index-2.jpg" alt="">
-                    <div class="d-flex ai-center col-lg-6 ai-center">
-                        <section class="secRowsection">
+                    <div  class="d-flex ai-center col-lg-6 ai-center">
+                        <section data-aos="fade-left" class="secRowsection">
                             <h2>Special Clays</h2>
                             <p>A general body formulation for contemporary earthenware is 25% kaolin, 25% ball clay, 35% quartz and 15% feldspar.</p>
                             <h3>learn more</h3>
@@ -53,7 +89,7 @@
                     </div>
                 </div>
                 <div class="row secRowrwd"> <!--修這裡-->
-                        <div class="d-flex ai-center col-lg-6">
+                        <div  data-aos="fade-right" class="d-flex ai-center col-lg-6">
                             <section class="secRowsection">
                                 <h2>Less is more</h2>
                                 <p>Trimming pottery can transform a weighty Earth-bound pot into one that is a pleasure to hold, look at, and use.</p>
@@ -64,7 +100,7 @@
                 </div>
                 <div class="row">
                     <img class="col-lg-6" src="/img/index-4.jpg" alt="">
-                        <div class="d-flex ai-center col-lg-6">
+                        <div data-aos="fade-left" class="d-flex ai-center col-lg-6">
                             <section class="secRowsection">
                                 <h2>Marvelous Detail</h2>
                                 <p>In Craftsman, the art director, working with marketers, develops or creates an idea of a new creation.</p>
@@ -78,10 +114,10 @@
     </div>
     <!-- thirdRow -->
     <div class="row thirdRow">
-        <div class=" d-flex col-lg-6 leftSide ai-center">
+        <div data-aos="fade-down" class=" d-flex col-lg-6 leftSide ai-center">
             <p class="ma-85">“I want to make the life more simple by crafts.”</p>
         </div>
-        <div class="col-lg-6  d-flex jc-center ai-center">
+        <div data-aos="fade-down" class="col-lg-6  d-flex jc-center ai-center">
             <section class="rightSide ">
                 <h2>Art Director</h2>
                 <h1>hsiao-Ming Chen</h1>
@@ -135,8 +171,8 @@
     </div>
     <!-- fourthRow end -->
     <!-- bottomRow -->
-    <div class="bottomRow row d-flex jc-flex-start ai-center">
-        <div class="col-lg-6">
+    <div class="bottomRow row d-flex jc-flex-start ai-center" >
+        <div class="col-lg-6"  data-aos="fade-down">
             <h2>Subscribe for news and special offers!</h2>
             <form class="d-flex">
                 <input class="emailInput" type="text" placeholder="Your email address">
@@ -146,9 +182,9 @@
     </div>
     <!-- bottomRow end -->
     <!-- footerRow -->
-    <div class="footerRow d-flex ai-center">
+    <div class="footerRow row d-flex ai-center">
         <div class="d-flex leftSidefooter">
-            <h2>CRAFTsMAN</h2>
+            <h2 >CRAFTsMAN</h2>
             <p>© 2020. All Rights Reserved.</p>
         </div>
         <div>

@@ -1,6 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/modal";
 @import "_utils.scss";
-@import "_base.scss";
 @import "_variable.scss";
 @import '_home.scss';
 @import '_product.scss';
+@import '_base.scss';
+@import "_detail.scss";
+@import "_checkout1.scss";

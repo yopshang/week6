@@ -9,14 +9,30 @@
       href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
       crossorigin="anonymous">
       <!-- fontawesome -->
+    <!-- animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <!-- animate.css end -->
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Product</title>
 </head>
 <body>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: false,
+    });
+</script>
+<!-- AOS -->
     <div class="main-container">
         <!--nav-->
         <nav class="row navOnproduct ai-center "><!--ai-center-->
             <h2 class="titleIntop">
-                <a href="/home.html">
+                <a class="titleIntop" href="/home.html">
                     CRAFTsMAN
                 </a>
             </h2>
@@ -29,14 +45,14 @@
         </nav>
         <!-- nav end -->
         <!-- product filter -->
-        <div class="mb-3">
+        <div class="mb-3">  
             <div class="productFilter row ai-center">
                 <ul class="productUl row mb-2 mt-2 col-lg-5">
-                    <li>ALL<sup>24</sup></li>
-                    <li>BOWL<sup>10</sup></li>
-                    <li>CUP<sup>8</sup></li>
-                    <li>PLATE<sup>3</sup></li>
-                    <li>VASE<sup>3</sup></li>
+                    <li class="animate__animated animate__headShake">ALL<sup>24</sup></li>
+                    <li class="animate__animated animate__headShake">BOWL<sup>10</sup></li>
+                    <li class="animate__animated animate__headShake">CUP<sup>8</sup></li>
+                    <li class="animate__animated animate__headShake">PLATE<sup>3</sup></li>
+                    <li class="animate__animated animate__headShake">VASE<sup>3</sup></li>
                 </ul>
             </div>
         </div>
@@ -45,10 +61,10 @@
         <div class="mb-4 row">
             <!-- col1 -->
             <div class="col">
-                <div class="">
+                <div data-aos="fade-down-right" class="">
                     <div>
-                            <img src="/img/img-1.jpg" alt="">
-                            <div class="onsile">ON SALE</div>
+                        <img src="/img/img-1.jpg" alt="">
+                        <div class="onsile">ON SALE</div>
                         <section>
                             <h2 class="underOnsile">Tatami Cup</h2>
                             <div class="row col-lg-6 jc-space-around">
@@ -58,7 +74,7 @@
                         </section>
                     </div>
                 </div>
-                <div class="">
+                <div  data-aos="fade-right" class="">
                     <div>
                         <img src="/img/img-6.jpg" alt="">
                         <section>
@@ -70,8 +86,8 @@
                         </section>
                     </div>
                 </div>
-                <div class="">
-                    <div>
+                <div data-aos="fade-up-right" class="">
+                    <div >
                         <img src="/img/img-8.jpg" alt="">
                         <section>
                             <h2>Kabi Mug</h2>
@@ -86,7 +102,7 @@
             <!-- col1 end -->
             <!-- col2 -->
             <div class="col">
-                <div class="">
+                <div  data-aos="fade-down" class="">
                     <div>
                         <img src="/img/img-5.jpg" alt="">
                         <div class="onsile2">ON SALE</div>
@@ -99,7 +115,7 @@
                         </section>
                     </div>
                 </div>
-                <div class="">
+                <div  data-aos="zoom-in" class="">
                     <div>
                         <img src="/img/img-3.jpg" alt="">
                         <section>
@@ -111,7 +127,7 @@
                         </section>
                     </div>
                 </div>
-                <div class="">
+                <div  data-aos="fade-up" class="">
                     <div>
                         <img src="/img/img-9.jpg" alt="">
                         <section>
@@ -127,7 +143,7 @@
             <!-- col2 end -->
             <!-- col3 -->
             <div class="col">
-                <div class="">
+                <div  data-aos="fade-down-left" class="">
                     <div>
                         <img src="/img/img-4.jpg" alt="">
                         <div class="onsile2">ON SALE</div>
@@ -140,7 +156,7 @@
                         </section>
                     </div>
                 </div>
-                <div class="">
+                <div  data-aos="fade-left" class="">
                     <div>
                         <img src="/img/img-7.jpg" alt="">
                         <section>
@@ -152,7 +168,7 @@
                         </section>
                     </div>
                 </div>
-                <div class="">
+                <div  data-aos="fade-up-left" class="">
                     <div>
                         <img src="/img/img-2.jpg" alt="">
                         <section>
@@ -180,7 +196,7 @@
         <!--layout footer-->
         <!-- bottomRow -->
         <div class="bottomRow row d-flex jc-flex-start ai-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6"  data-aos="fade-down">
                 <h2>Subscribe for news and special offers!</h2>
                 <form class="d-flex">
                     <input class="emailInput" type="text" placeholder="Your email address">

@@ -1,16 +1,20 @@
-$main-color:#0E8A00;
-$secondary-color:#0000009A;
-$third-color:#00000062;
 
 .mainDiv{
     margin: 0 85px;
 }
 a{
-    color: #fff;
-    text-decoration: none
-    
-    ;
+    text-decoration: none;
 }
+a:hover{
+    color: $main-color;
+}
+//nav
+.productList{
+    a{
+        color: #121212;
+    }
+}
+//nav end
 // firstRow
 .topDiv{
     height: 800px;
@@ -20,12 +24,14 @@ a{
     margin-top: 24px;
     margin-bottom: 24px;
     font-size: 24px;
+    animation-duration: 6s;
 }
 .bigTitleintop{
     font-size: 48px;
 }
 .insideTop{
     margin: 30% 0;
+    animation-duration: 6s;
 }
 .smTitleintop{
     font-size: 24px;
@@ -152,7 +158,7 @@ a{
     font-weight: bold;
 }
 .underOnsile{
-    margin-top: 280px;
+    margin-top: 295px;
 }
 // fourthRow end
 // bottomRow

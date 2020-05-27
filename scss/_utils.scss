@@ -8,6 +8,9 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+.flex-wrap-no{
+ flex-wrap: nowrap;
+}
 .jc-center{
     justify-content: center;
 }
@@ -26,7 +29,15 @@
 .ai-center{
     align-items: center;
 }
+.ai-start{
+    align-items: start;
+}
+.ai-end{
+    align-items: end;
+}
 .text-dec{
     text-decoration:line-through;
 }
-    
+.fw-bold{
+    font-weight: bold;
+}
